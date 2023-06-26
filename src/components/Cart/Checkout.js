@@ -17,6 +17,7 @@ const Checkout = props => {
 		city: true,
 		postalCode: true,
 	});
+	
 	const confirmHandler = event => {
 		event.preventDefault();
 
